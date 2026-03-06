@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f2d00d",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#050505",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            @apply bg-background-dark;
+            background-image: radial-gradient(circle at 50% 0%, rgba(242, 208, 13, 0.03) 0%, transparent 70%);
+        }
+        .golden-dust {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background-image: 
+                radial-gradient(1px 1px at 20px 30px, #f2d00d, rgba(0,0,0,0)),
+                radial-gradient(1px 1px at 40px 70px, #f2d00d, rgba(0,0,0,0)),
+                radial-gradient(1px 1px at 90px 40px, #f2d00d, rgba(0,0,0,0)),
+                radial-gradient(1px 1px at 130px 80px, #f2d00d, rgba(0,0,0,0));
+            background-repeat: repeat;
+            background-size: 300px 300px;
+            opacity: 0.1;
+            z-index: 1;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .product-frame {
+            box-shadow: inset 0 0 40px rgba(0,0,0,0.8), 0 20px 50px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-slate-100 font-display selection:bg-primary selection:text-background-dark">
+<div class="golden-dust"></div>
+<div class="relative z-10 flex min-h-screen flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 w-full bg-black/60 backdrop-blur-xl">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">flare</span>
+<h1 class="text-lg font-light tracking-[0.4em] text-white uppercase">Clou</h1>
+</div>
+<div class="flex items-center gap-4">
+<a class="px-5 py-2 text-[10px] font-bold uppercase tracking-[0.2em] bg-white text-black rounded-full hover:bg-primary transition-colors" href="#contacto">
+                    Contacto
+                </a>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="relative h-[80vh] w-full overflow-hidden flex items-center justify-center px-6">
+<div class="absolute inset-0 z-0">
+<img alt="Featured Fragrance" class="h-full w-full object-cover opacity-60" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa-scyfx6dB1Z0r0G_odRC98f76FMUWv5-BWyF6YVtZ3u_yjqD9yZ0eB7eAjO9hrLUd9QRY3bdCl5A8MTNTsv2odLSFXSuMTZAJKm7f2D-4o_L62dm3TatItZzGsyqy9wyPwtyFpgyYPYBL4Nw9Nycw5UESZ-d39LGMRv_sMgt9ST9hjfJHGF3oV_Fy8n8ivUWk6lwLeLFR0GYgFw2syiTOrdNxh2KO0m_ZFfkotigeqjFREyr4AIW7PX2WwbdRjiaP3NRM8AXzWM"/>
+<div class="absolute inset-0 bg-gradient-to-b from-background-dark/20 via-transparent to-background-dark"></div>
+</div>
+<div class="relative z-10 text-center space-y-4 max-w-2xl">
+<h2 class="text-5xl md:text-7xl font-extralight leading-tight text-white tracking-[0.1em] opacity-90">
+                    Curated <span class="italic font-thin text-white/70">Atmospheres</span>
+</h2>
+<p class="mx-auto max-w-xs text-[10px] uppercase tracking-[0.4em] leading-relaxed text-slate-400 font-light">
+                    Una colección de esencias diseñadas para el explorador de sensaciones.
+                </p>
+</div>
+</section>
+<section class="pb-20">
+<div class="px-6">
+<div class="sticky top-[68px] z-40 -mx-6 bg-background-dark/80 px-6 py-8 backdrop-blur-lg">
+<div class="flex items-center justify-center gap-8 overflow-x-auto hide-scrollbar">
+<button class="whitespace-nowrap text-[10px] font-bold uppercase tracking-[0.3em] text-primary border-b border-primary pb-1">All</button>
+<button class="whitespace-nowrap text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500 hover:text-white transition-colors">Floral</button>
+<button class="whitespace-nowrap text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500 hover:text-white transition-colors">Woody</button>
+<button class="whitespace-nowrap text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500 hover:text-white transition-colors">Fresh</button>
+</div>
+</div>
+<div class="mt-12 space-y-24 max-w-2xl mx-auto">
+<div class="group relative flex flex-col items-center">
+<div class="product-frame w-full aspect-[4/5] overflow-hidden rounded-xl bg-black mb-10 border-[3px] border-zinc-800/50">
+<img alt="Oud Royal" class="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLnpW5BZTTVcBo07as9UP1sXvlp-LAYm0TYZgA51fFK8fjph0-Y9vVXfSbZqwA9CIMc0IXuHK1Fn5cXzZTbadMF_iMLesBmh8l8WoxFhfbnbZy966mqx2xImnJ8q2dYaTO471z1gzwmP-zth4MMYDiCQvKdmNfwoT4Ad1bLrH7gUT8bQQ7Gjv8cSZcyAyzneQlEfvLF-3-0zJDCXdg-2pxqBMCE0iB_hCop5C7PF-XvAMlHjA4PG_IzgDN3TYY9xHuTLJ01X9ld2o"/>
+</div>
+<div class="text-center w-full space-y-2">
+<span class="text-[9px] font-bold uppercase tracking-[0.4em] text-primary">Signature</span>
+<h3 class="text-3xl font-light text-white tracking-wide">Oud Royal</h3>
+<p class="text-xs text-slate-500 tracking-wider">Notas intensas de madera de agar y ámbar gris.</p>
+<span class="block text-sm text-white/60 font-medium pt-1">$280</span>
+<a class="inline-block mt-8 text-[11px] font-bold uppercase tracking-[0.3em] text-white border-b border-white/20 pb-1 hover:border-primary transition-colors" href="#">
+                                Ir al producto
+                            </a>
+</div>
+</div>
+<div class="group relative flex flex-col items-center">
+<div class="product-frame w-full aspect-[4/5] overflow-hidden rounded-xl bg-black mb-10 border-[3px] border-zinc-800/50">
+<img alt="Golden Nectar" class="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm2l57u1Ci7GRnFSocEKEQOEgMUUUJ2VQcwR58StYiZgQE7M-Lps1xcqs8CiVVk_UwP-sY9dKyAYXwtY8WS9obwa5OH28VvEnj7g247snoKKMwur_AgQIdnrDqJHwgvV2TM41y2AGzoC2X-4mtgASJpNo5mt7pGgdQ0wqPNAD6uoXoS9qZAwMidPrZcp46GdeDg02v9C71ur0wKuCxR2P1-A8-FCqgLkjEBHSs2xpv-kXe6GzRNC3vF7wb0IdsBlRGX_k-aC0fWIg"/>
+</div>
+<div class="text-center w-full space-y-2">
+<span class="text-[9px] font-bold uppercase tracking-[0.4em] text-slate-500">Bestseller</span>
+<h3 class="text-3xl font-light text-white tracking-wide">Golden Nectar</h3>
+<p class="text-xs text-slate-500 tracking-wider">Una explosión radiante de cítricos y vainilla bourbon.</p>
+<span class="block text-sm text-white/60 font-medium pt-1">$320</span>
+<a class="inline-block mt-8 text-[11px] font-bold uppercase tracking-[0.3em] text-white border-b border-white/20 pb-1 hover:border-primary transition-colors" href="#">
+                                Ir al producto
+                            </a>
+</div>
+</div>
+<div class="group relative flex flex-col items-center">
+<div class="product-frame w-full aspect-[4/5] overflow-hidden rounded-xl bg-black mb-10 border-[3px] border-zinc-800/50">
+<img alt="Midnight Rose" class="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFSc_xIab809vLQynALbYt9I24dl9XicsBNAxa1rLQvxJzTG41dXRbHeqbmEbc2GDenoTu1U81BjQQJjZvaS91aE48sOVc3iP1pQ6kUbUv7dmx7qN6cbATXieK8Ncf0lR-BMElZjCbD6qxvp5_R52nN-kZgS7ZHloIp6I9BcaEM9MJ6xU7_HYg_bOGvP8_N4sQaI_zu3v_3xVy95v9i81d-He8aRUgOWYiSoee5gbuX10mLYGeBYtefyqXRv0QoEvkq3kkbw7HbwY"/>
+</div>
+<div class="text-center w-full space-y-2">
+<span class="text-[9px] font-bold uppercase tracking-[0.4em] text-slate-500">Evening</span>
+<h3 class="text-3xl font-light text-white tracking-wide">Midnight Rose</h3>
+<p class="text-xs text-slate-500 tracking-wider">Terciopelo de rosa negra envuelto en misterio nocturno.</p>
+<span class="block text-sm text-white/60 font-medium pt-1">$265</span>
+<a class="inline-block mt-8 text-[11px] font-bold uppercase tracking-[0.3em] text-white border-b border-white/20 pb-1 hover:border-primary transition-colors" href="#">
+                                Ir al producto
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-white/5 bg-black py-20">
+<div class="px-6 text-center">
+<div class="flex flex-col items-center gap-12">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-xl">flare</span>
+<h2 class="text-lg font-light tracking-[0.4em] text-white uppercase">Clou</h2>
+</div>
+<div class="space-y-6">
+<p class="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500">Hablemos</p>
+<a class="px-10 py-4 text-[11px] font-bold uppercase tracking-[0.3em] bg-white text-black rounded-full hover:bg-primary transition-colors inline-block" href="#contacto">
+                        Contacto
+                    </a>
+</div>
+<div class="pt-8 text-[9px] font-bold uppercase tracking-[0.3em] text-slate-700">
+                    © 2024 Clou. All Rights Reserved.
+                </div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

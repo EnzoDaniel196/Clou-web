@@ -1,0 +1,14 @@
+{
+  "name": "clou-perfumes",
+  "version": "1.0.0",
+  "description": "Clou Perfumes — Catálogo de perfumes premium",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.2"
+  }
+}

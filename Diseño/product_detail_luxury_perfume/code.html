@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#f2d00d",
+                        "stock-green": "#25D366",
+                        "background-light": "#f8f8f5",
+                        "background-dark": "#050505",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+        .gallery-image-container::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at center, transparent 30%, rgba(5,5,5,0.9) 100%);
+            pointer-events: none;
+        }
+        .glass-nav {
+            background: rgba(5, 5, 5, 0.7);
+            backdrop-filter: blur(12px);
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .glass-btn {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .stock-glow {
+            box-shadow: 0 0 15px rgba(37, 211, 102, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-slate-100 min-h-screen selection:bg-primary/30 pb-32">
+<div class="relative flex min-h-screen w-full flex-col">
+<header class="flex items-center justify-center px-6 py-6 lg:px-20 z-10 opacity-40">
+<div class="flex flex-col items-center gap-0.5">
+<div class="text-primary">
+<span class="material-symbols-outlined text-lg font-light">diamond</span>
+</div>
+<h2 class="text-[8px] font-light tracking-[0.5em] uppercase">Clou</h2>
+</div>
+</header>
+<main class="flex-1 flex flex-col items-center justify-start max-w-7xl mx-auto w-full px-6">
+<div class="w-full flex flex-col items-center">
+<div class="relative w-full max-w-5xl group mb-12">
+<div class="gallery-image-container relative aspect-[4/5] sm:aspect-square lg:aspect-[21/9] w-full overflow-hidden rounded-3xl border border-white/5 flex items-center justify-center bg-zinc-900/20">
+<img alt="Luxury perfume bottle" class="h-full w-full object-cover opacity-80 transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOU1-U9Gi08IbZU1j0O2tjexJVhu0z2-ggezEKX_9oVDz_SG2Flm7j0Bj0OYGW6xnZCWu_GQX8p7fKQNyxmEzT4Il-O8kAfjwAhl-FtEq-fB3mJFKiEyyzrCCk5novUg7UkkV9H3EWSy93xoNMVlWe2qGyK-xTIRPMGSqWsd9SeaYOKrCEjowfa8kh6s6PczMXKAQUBlJnkaYahTL3cll7W4DFUBHBgPs8kQyyUtC7sRrG-_Xm7LMB4uPUBcAYOTeVcYHczldYhM4"/>
+<a class="absolute top-6 left-6 z-30 glass-btn w-10 h-10 rounded-full flex items-center justify-center hover:bg-white/10 transition-all text-white/70" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back_ios_new</span>
+</a>
+</div>
+</div>
+<div class="w-full max-w-4xl text-center space-y-12">
+<div class="space-y-6">
+<div class="space-y-4">
+<p class="text-primary text-xs font-medium tracking-[0.6em] uppercase opacity-50">The Private Gallery</p>
+<h1 class="text-6xl lg:text-8xl font-thin tracking-tighter">Oud Noir</h1>
+</div>
+<div class="flex justify-center">
+<div class="h-px w-16 bg-gradient-to-r from-transparent via-primary/20 to-transparent"></div>
+</div>
+<div class="max-w-3xl mx-auto">
+<p class="text-slate-400 text-lg lg:text-xl font-light leading-relaxed">
+                                "An intoxicating journey into the heart of the Orient. This complex masterpiece opens with the vibrant radiance of 
+                                <span class="text-white/90 font-semibold tracking-wide">Bergamot</span>, 
+                                evolving into a deep, sophisticated core of 
+                                <span class="text-white/90 font-semibold tracking-wide">Smoky Oud</span>, 
+                                and settling into the enduring, creamy warmth of 
+                                <span class="text-white/90 font-semibold tracking-wide">Sandalwood</span>."
+                            </p>
+</div>
+</div>
+<div class="flex flex-col items-center gap-4 pt-4">
+<span class="text-5xl font-extralight tracking-[0.1em] text-slate-100">$285.00</span>
+<div class="stock-glow flex items-center gap-2 rounded-full bg-stock-green/5 border border-stock-green/20 px-4 py-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-stock-green animate-pulse"></span>
+<p class="text-stock-green text-[10px] font-bold tracking-[0.2em] uppercase">En stock</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="px-6 py-24 text-center">
+<p class="text-slate-800 text-[10px] uppercase tracking-[0.5em] font-light italic">Maison de Luxe Parfumerie © 2024</p>
+</footer>
+</div>
+<div class="fixed bottom-0 left-0 right-0 z-50 px-4 pb-8 pointer-events-none">
+<div class="max-w-xl mx-auto glass-nav rounded-full p-2 pointer-events-auto shadow-2xl shadow-black/50 border border-white/5">
+<div class="flex items-center justify-between gap-2">
+<a class="flex-1 flex items-center justify-center gap-3 py-4 px-6 rounded-full bg-[#25D366]/10 text-[#25D366] hover:bg-[#25D366] hover:text-black transition-all duration-300 group" href="#">
+<span class="material-symbols-outlined text-xl">chat</span>
+<span class="text-[11px] font-bold tracking-[0.2em] uppercase">WhatsApp</span>
+</a>
+<div class="w-px h-8 bg-white/10"></div>
+<a class="flex-1 flex items-center justify-center gap-3 py-4 px-6 rounded-full bg-white/5 text-slate-300 hover:bg-white hover:text-black transition-all duration-300 group" href="#">
+<span class="material-symbols-outlined text-xl">camera</span>
+<span class="text-[11px] font-bold tracking-[0.2em] uppercase">Instagram</span>
+</a>
+</div>
+</div>
+</div>
+
+</body></html>

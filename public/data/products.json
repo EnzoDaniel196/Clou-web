@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Club de Nuit Intense",
+        "brand": "Armaf",
+        "price": "$70.500",
+        "shortDescription": "Elegancia masculina, audaz y ahumada.",
+        "longDescription": "Una obra maestra que abre con una explosión vibrante de limón y piña. Su corazón de abedul aporta un carácter ahumado sofisticado, culminando en una base profunda de almizcle y ámbar gris que proyecta éxito y autoridad.",
+        "notes": [
+            "Limón",
+            "Piña",
+            "Abedul"
+        ],
+        "image": "/images/Armaf_clubdenuitintense.png",
+        "inStock": true
+    },
+    {
+        "id": 2,
+        "name": "Khamrah",
+        "brand": "Lattafa",
+        "price": "$65.000",
+        "shortDescription": "Dulzura exótica, licorosa y envolvente.",
+        "longDescription": "Una obra maestra gourmand que abre con un abrazo de canela y nuez moscada. Su corazón revela la riqueza de los dátiles y el praliné, fundiéndose en una base de vainilla y maderas que garantiza una estela irresistible.",
+        "notes": [
+            "Canela",
+            "Praliné",
+            "Vainilla"
+        ],
+        "image": "/images/Lattafa_khamrah.png",
+        "inStock": false
+    },
+    {
+        "id": 3,
+        "name": "Mandarin Sky",
+        "brand": "Armaf",
+        "price": "$59.000",
+        "shortDescription": "Seducción magnética de caramelo cítrico.",
+        "longDescription": "Una explosión jugosa de mandarina y naranja que evoluciona hacia un corazón adictivo de caramelo y haba tonka. Una fragancia moderna que equilibra perfectamente la frescura frutal con la calidez del ambroxán.",
+        "notes": [
+            "Mandarina",
+            "Caramelo",
+            "Ambroxán"
+        ],
+        "image": "/images/armaf_mandarinsky.png",
+        "inStock": true
+    },
+    {
+        "id": 4,
+        "name": "Asad Zanzibar",
+        "brand": "Lattafa",
+        "price": "$49.000",
+        "shortDescription": "Frescura marina con alma tropical.",
+        "longDescription": "Un viaje sensorial a las costas de Zanzíbar. Abre con notas marinas y pimienta rosa, evolucionando hacia un corazón limpio de jabón y cachemira. Su fondo de sándalo y ámbar proyecta una masculinidad fresca, moderna y vibrante.",
+        "notes": [
+            "Marino",
+            "Pimienta rosa",
+            "Sándalo"
+        ],
+        "image": "/images/lattafa_asdazanzibar.png",
+        "inStock": true
+    },
+    {
+        "id": 5,
+        "name": "Khamrah Qahwa",
+        "brand": "Lattafa",
+        "price": "$00.000",
+        "shortDescription": "El abrazo cálido del café.",
+        "longDescription": "Ideal para climas fríos, esta fragancia abre con una explosión especiada. Su esencia revela la dulzura del haba tonka y el praliné, envueltos en un aura de café y benjuí que proyecta una elegancia acogedora, potente y muy persistente.",
+        "notes": [
+            "Café",
+            "Praliné",
+            "Vainilla"
+        ],
+        "image": "/images/lattafa_khamrahqawha.png",
+        "inStock": false
+    },
+    {
+        "id": 6,
+        "name": "Salvo",
+        "brand": "Maison Alhambra",
+        "price": "$48.000",
+        "shortDescription": "Frescura salvaje, limpia y versátil.",
+        "longDescription": "Un icono de la perfumería moderna que abre con una bergamota radiante. Su corazón de lavanda y pimienta de Sichuan aporta una masculinidad vibrante, mientras que el ambroxan crea una estela magnética y pulcra que dura todo el día.",
+        "notes": [
+            "Bergamota",
+            "Lavanda",
+            "Ambroxán"
+        ],
+        "image": "/images/maison_salvo.png",
+        "inStock": true
+    },
+    {
+        "id": 7,
+        "name": "Hawas",
+        "brand": "Rasasi",
+        "price": "$60.000",
+        "shortDescription": "Frescura marina, dulce y potente.",
+        "longDescription": "Una explosión de manzana y canela que evoluciona hacia un corazón acuático con ciruela. Su base de ámbar gris y almizcle garantiza una proyección legendaria, ideal para quien busca dejar huella con frescura y energía pura.",
+        "notes": [
+            "Manzana",
+            "Ciruela",
+            "Ámbar gris"
+        ],
+        "image": "/images/rasasi_hawas.png",
+        "inStock": true
+    },
+    {
+        "id": 8,
+        "name": "Yara",
+        "brand": "Lattafa",
+        "price": "$52.000",
+        "shortDescription": "Dulzura cremosa, femenina y viral.",
+        "longDescription": "El equilibrio perfecto entre ternura y seducción. Su salida floral da paso a una mezcla magnética de notas gourmand y frutas. El resultado es un perfume acogedor, con una estela de almizcle que proyecta limpieza, dulzura y distinción.",
+        "notes": [
+            "Acorde goloso",
+            "Frutas tropicales",
+            "Orquídea"
+        ],
+        "image": "/images/Lattafa_yarapinkpng.png",
+        "inStock": true
+    },
+    {
+        "id": 9,
+        "name": "Yara moi",
+        "brand": "Lattafa",
+        "price": "$52.000",
+        "shortDescription": "Caramelo sofisticado, cálido y seductor.",
+        "longDescription": "Una fragancia que destila lujo. Inicia con la jugosidad del durazno y el jazmín, que se funden en un corazón denso de caramelo y ámbar. El pachulí en el fondo le otorga una profundidad elegante, ideal para la mujer que busca presencia.",
+        "notes": [
+            "Durazno",
+            "Jazmín",
+            "Caramelo"
+        ],
+        "image": "/images/Lattafa_yaramoi.png",
+        "inStock": true
+    },
+    {
+        "id": 10,
+        "name": "Yara Candy",
+        "brand": "Lattafa",
+        "price": "$48.000",
+        "shortDescription": "Dulce efervescencia de fresa vibrante.",
+        "longDescription": "Yara Candy es pura diversión embotellada. Su nota única de caramelo efervescente se mezcla con la frescura de las frutas rojas y la suavidad de la gardenia, reposando sobre una base cremosa de vainilla y sándalo.",
+        "notes": [
+            "Caramelo efervescente",
+            "Grosellas negras y mandarina",
+            "Vainilla"
+        ],
+        "image": "/images/Lattafa_yaracandy.png",
+        "inStock": true
+    },
+    {
+        "id": 11,
+        "name": "Amber Oud Gold Edition",
+        "brand": "Al haramain",
+        "price": "$99.200",
+        "shortDescription": "Lujo dorado, frutal y radiante.",
+        "longDescription": "Una obra maestra de la opulencia. Inicia con una explosión vibrante de melón y piña, que evoluciona hacia un corazón de ámbar profundo. Su base de vainilla y almizcle crea una estela Beast Mode que proyecta éxito y sofisticación absoluta.",
+        "notes": [
+            "Melón",
+            "Piña",
+            "Ámbar"
+        ],
+        "image": "/images/Alharamain_amberoudgold.png",
+        "inStock": true
+    },
+    {
+        "id": 12,
+        "name": "Aqua dubai",
+        "brand": "Al haramain",
+        "price": "$96.000",
+        "shortDescription": "Lujo cítrico, fresco y vibrante.",
+        "longDescription": "Una interpretación refrescante del éxito mundial. Abre con una explosión de bergamota y mandarina que da paso a un corazón jugoso de melón y piña. El fondo de almizcle y gálbano aporta una limpieza verde que evoca la sofisticación de las costas de Dubái.",
+        "notes": [
+            "Mandarina",
+            "Melon",
+            "Piña"
+        ],
+        "image": "/images/Alharamain_aquadubai.jpeg",
+        "inStock": true
+    },
+    {
+        "id": 13,
+        "name": "Sceptre malachite",
+        "brand": "Maison Alhambra",
+        "price": "$58.000",
+        "shortDescription": "Lujo verde, aromático y distinguido.",
+        "longDescription": "Una fragancia majestuosa que abre con la frescura punzante de la mandarina verde y grosellas. Su corazón aromático de lavanda y pimienta rosa se asienta sobre una base rica de vetiver y ámbar, creando un aura de poder y sofisticación.",
+        "notes": [
+            "Mandarina verde",
+            "Lavanda",
+            "Vetiver"
+        ],
+        "image": "/images/Maison_sceptremalachite.png",
+        "inStock": true
+    },
+    {
+        "id": 14,
+        "name": "Mayar Natural Intense",
+        "brand": "Lattafa",
+        "price": "$60.000",
+        "shortDescription": "Frescura acuática, exótica y pura.",
+        "longDescription": "Mayar Natural Intense es la definición del lujo vacacional. Sus notas de higo y melón se entrelazan con la delicadeza del lirio de agua, reposando sobre una base de vainilla y sándalo que evoca la calidez de la piel bajo el sol del verano.",
+        "notes": [
+            "Agua de coco",
+            "Flor de loto",
+            "Mandarina"
+        ],
+        "image": "/images/Lattafa_mayarnaturalintense.png",
+        "inStock": true
+    },
+    {
+        "id": 15,
+        "name": "Club de Nuit Urban Elixir",
+        "brand": "Armaf",
+        "price": "$80.000",
+        "shortDescription": "Poder urbano, fresco e intenso.",
+        "longDescription": "Diseñado para el hombre que lo quiere todo. Esta fragancia fusiona la frescura floral del azahar con la robustez del vetiver y el ámbar. Un perfume magnético y versátil que se adapta a cualquier situación con una duración fuera de serie.",
+        "notes": [
+            "Ambroxán",
+            "Bergamota",
+            "Lavanda"
+        ],
+        "image": "/images/Armaf_urbanmanelixir.png",
+        "inStock": true
+    },
+    {
+        "id": 16,
+        "name": "Infini Oud",
+        "brand": "Maison Alhambra",
+        "price": "$47.000",
+        "shortDescription": "Sofisticación amaderada pura y profunda.",
+        "longDescription": "Una mezcla equilibrada de maderas nobles y especias cálidas. La lavanda aporta un toque de limpieza que contrasta con la intensidad del Oud y el pachulí, resultando en una fragancia rica, equilibrada y sumamente profesional para ocasiones especiales.",
+        "notes": [
+            "Madera de oud",
+            "Nuez moscada",
+            "Pachuli"
+        ],
+        "image": "/images/Maison_infinioud.png",
+        "inStock": true
+    }
+]

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html class="dark" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>Contact | Clou Perfumes</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#A88E4B", // Antique Brass finish
+                        "gold-bright": "#f2d00d",
+                        "background-dark": "#020202", // Velvety black
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        :root {
+            --brass: #A88E4B;
+        }
+        .luxury-gradient {
+            background: radial-gradient(circle at center, rgba(168, 142, 75, 0.08) 0%, rgba(0, 0, 0, 0) 70%);
+        }
+        .gold-dust {
+            background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuCYALdkCDYFgZDyD-qWVBveQtogvVFc78siF-BrKAzRLg-y5TsGprTwdPA8hSoE91L0wJBE1GERjS0YY4iVHjeRYbm_AfUg7oUV8MnpAGmR37L6g85LdmNF6sU0-EJ1t4Cqs_Qm3wlGqTWS73lQ7EdCT_RTIpGBqLSfVlutg3-aywixwNcaR-IqI4jnTw0MHQUZhdkn5CEUU9UliUY7AF2oooMFFPtBx4ae0GdUaET3DZ68_92kHKC-XC5fGpxvA6clNoBRYkohaxc);
+            opacity: 0.12;
+            pointer-events: none;
+            background-size: cover;
+            mix-blend-mode: screen;
+        }
+        .title-glow {
+            text-shadow: 0 0 30px rgba(242, 208, 13, 0.4), 0 0 60px rgba(242, 208, 13, 0.1);
+        }
+        .brass-object {
+            box-shadow: inset 0 0 15px rgba(168, 142, 75, 0.1), 0 10px 30px -10px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body class="bg-background-dark font-display text-slate-100 selection:bg-primary selection:text-background-dark overflow-hidden">
+<div class="fixed inset-0 luxury-gradient z-0"></div>
+<div class="fixed inset-0 gold-dust z-10" data-alt="Subtle golden dust particle texture pattern"></div>
+<div class="relative z-20 flex h-screen w-full flex-col justify-between px-8 pt-12 pb-8 overflow-hidden">
+<header class="flex justify-between items-center w-full opacity-40">
+<div class="h-px flex-1 bg-gradient-to-r from-transparent via-primary/40 to-transparent"></div>
+<div class="px-6">
+<svg class="size-5 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<div class="h-px flex-1 bg-gradient-to-r from-transparent via-primary/40 to-transparent"></div>
+</header>
+<main class="flex flex-col items-center text-center space-y-10 mt-[-5vh]">
+<div class="space-y-6">
+<h1 class="text-7xl md:text-9xl font-extralight tracking-tighter text-slate-100 leading-[0.85] title-glow">
+                    Clou<br/><span class="font-extrabold text-gold-bright">Perfumes</span>
+</h1>
+<div class="flex flex-col items-center gap-6">
+<div class="h-px w-16 bg-primary/40"></div>
+<p class="max-w-[300px] mx-auto text-lg font-light leading-relaxed text-slate-400 tracking-wide">
+                        La esencia del <span class="italic text-primary">lujo invisible</span>. 
+                        Eleva tu presencia con nuestra colección.
+                    </p>
+</div>
+</div>
+</main>
+<div class="flex flex-col items-center gap-12 py-8">
+<div class="flex gap-10 items-center">
+<a class="group flex flex-col items-center gap-4 transition-all duration-500 active:scale-95" href="#">
+<div class="size-20 md:size-24 rounded-full border-2 border-primary/40 flex items-center justify-center brass-object group-hover:border-primary group-hover:bg-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary !text-4xl">chat</span>
+</div>
+<span class="text-[10px] uppercase font-semibold tracking-[0.3em] text-primary/60 group-hover:text-primary transition-colors">WhatsApp</span>
+</a>
+<a class="group flex flex-col items-center gap-4 transition-all duration-500 active:scale-95" href="#">
+<div class="size-20 md:size-24 rounded-full border-2 border-primary/40 flex items-center justify-center brass-object group-hover:border-primary group-hover:bg-primary/5 transition-all">
+<span class="material-symbols-outlined text-primary !text-4xl">photo_camera</span>
+</div>
+<span class="text-[10px] uppercase font-semibold tracking-[0.3em] text-primary/60 group-hover:text-primary transition-colors">Instagram</span>
+</a>
+</div>
+<a class="text-[11px] tracking-[0.4em] text-primary/40 uppercase border-b border-primary/10 pb-2 hover:text-primary transition-colors" href="#">
+                Explorar Catálogo
+            </a>
+</div>
+<footer class="flex flex-col items-center gap-6">
+<div class="text-center space-y-4">
+<div class="flex flex-col items-center gap-2">
+<p class="text-[10px] font-medium tracking-[0.4em] text-slate-600 uppercase">
+                        Luxury Dust Collection © 2024
+                    </p>
+<p class="text-[9px] font-normal tracking-[0.1em] text-slate-700">
+                        Hecho por <span class="text-primary/40">Enzo Murguia</span>
+</p>
+</div>
+<div class="flex gap-8 justify-center opacity-30">
+<a class="text-[9px] uppercase tracking-widest text-slate-500" href="#">Privacidad</a>
+<a class="text-[9px] uppercase tracking-widest text-slate-500" href="#">Términos</a>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
