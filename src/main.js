@@ -4,7 +4,7 @@
 
 // ─── Config ───
 // Reemplaza este número con tu WhatsApp real (con código de país)
-const WHATSAPP_NUMBER = '5491100000000';
+const WHATSAPP_NUMBER = '5493434569762';
 const INSTAGRAM_URL = 'https://instagram.com/clou_perfumes';
 
 // ─── State ───
