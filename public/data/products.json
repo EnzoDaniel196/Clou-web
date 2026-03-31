@@ -3,9 +3,9 @@
         "id": 1,
         "name": "Club de Nuit Intense",
         "brand": "Armaf",
-        "price": "$70.500",
-        "shortDescription": "Elegancia masculina, audaz y ahumada.",
-        "longDescription": "Una obra maestra que abre con una explosión vibrante de limón y piña. Su corazón de abedul aporta un carácter ahumado sofisticado, culminando en una base profunda de almizcle y ámbar gris que proyecta éxito y autoridad.",
+        "price": "$73.500",
+        "shortDescription": "Masculino",
+        "longDescription": "Las Notas de Salida son limón (lima ácida), piña, bergamota, grosellas negras y manzana; las Notas de Corazón son abedul, jazmín y rosa; las Notas de Fondo son almizcle, ámbar gris, pachulí y vainilla.",
         "notes": [
             "Limón",
             "Piña",
@@ -16,32 +16,32 @@
     },
     {
         "id": 2,
-        "name": "Khamrah",
+        "name": "Yara tous",
         "brand": "Lattafa",
-        "price": "$65.000",
-        "shortDescription": "Dulzura exótica, licorosa y envolvente.",
-        "longDescription": "Una obra maestra gourmand que abre con un abrazo de canela y nuez moscada. Su corazón revela la riqueza de los dátiles y el praliné, fundiéndose en una base de vainilla y maderas que garantiza una estela irresistible.",
+        "price": "$48.000",
+        "shortDescription": "Femenino",
+        "longDescription": "Las Notas de Salida son mango, coco y maracuyá (fruta de la pasión); las Notas de Corazón son jazmín, flor de azahar del naranjo y heliotropo; las Notas de Fondo son vainilla, almizcle y cachemira.",
         "notes": [
-            "Canela",
-            "Praliné",
+            "Mango",
+            "Coco",
             "Vainilla"
         ],
-        "image": "/images/Lattafa_khamrah.png",
-        "inStock": false
+        "image": "/images/Lattafa_yaratous.png",
+        "inStock": true
     },
     {
         "id": 3,
-        "name": "Mandarin Sky",
-        "brand": "Armaf",
-        "price": "$59.000",
-        "shortDescription": "Seducción magnética de caramelo cítrico.",
-        "longDescription": "Una explosión jugosa de mandarina y naranja que evoluciona hacia un corazón adictivo de caramelo y haba tonka. Una fragancia moderna que equilibra perfectamente la frescura frutal con la calidez del ambroxán.",
+        "name": "Yeah!",
+        "brand": "Maison Alhambra",
+        "price": "$49.000",
+        "shortDescription": "Masculino",
+        "longDescription": "Las Notas de Salida son manzana, jengibre y bergamota; las Notas de Corazón son salvia, bayas de enebro y geranio; las Notas de Fondo son Amberwood, haba tonka, cedro, vetiver y incienso de olíbano (franquincienso).",
         "notes": [
-            "Mandarina",
-            "Caramelo",
-            "Ambroxán"
+            "Manzana",
+            "Cedro",
+            "Jengibre"
         ],
-        "image": "/images/armaf_mandarinsky.png",
+        "image": "/images/MaisonAlhambraYeah.png",
         "inStock": true
     },
     {
@@ -72,36 +72,36 @@
             "Vainilla"
         ],
         "image": "/images/lattafa_khamrahqawha.png",
-        "inStock": false
+        "inStock": true
     },
     {
         "id": 6,
-        "name": "Salvo",
-        "brand": "Maison Alhambra",
-        "price": "$48.000",
-        "shortDescription": "Frescura salvaje, limpia y versátil.",
-        "longDescription": "Un icono de la perfumería moderna que abre con una bergamota radiante. Su corazón de lavanda y pimienta de Sichuan aporta una masculinidad vibrante, mientras que el ambroxan crea una estela magnética y pulcra que dura todo el día.",
+        "name": "Qaed al fursan Unlimited",
+        "brand": "Lattafa",
+        "price": "$38.000",
+        "shortDescription": "Unisex",
+        "longDescription": "Las Notas de Salida son coco, piña y cítricos; las Notas de Corazón son ylang-ylang, frangipani (plumeria, plumaria, atapaima) y jazmín; las Notas de Fondo son vainilla, almizcle, sándalo y notas dulces.",
         "notes": [
-            "Bergamota",
-            "Lavanda",
-            "Ambroxán"
+            "Coco",
+            "Piña",
+            "Vainilla"
         ],
-        "image": "/images/maison_salvo.png",
+        "image": "/images/lattafa_qaedalfursanwhite.png",
         "inStock": true
     },
     {
         "id": 7,
-        "name": "Hawas",
-        "brand": "Rasasi",
-        "price": "$60.000",
-        "shortDescription": "Frescura marina, dulce y potente.",
-        "longDescription": "Una explosión de manzana y canela que evoluciona hacia un corazón acuático con ciruela. Su base de ámbar gris y almizcle garantiza una proyección legendaria, ideal para quien busca dejar huella con frescura y energía pura.",
+        "name": "Eclaire",
+        "brand": "Lattafa",
+        "price": "$75.000",
+        "shortDescription": "Femenino",
+        "longDescription": "Las Notas de Salida son caramelo, leche y azúcar; las Notas de Corazón son miel y flores blancas; las Notas de Fondo son vainilla, praliné y almizcle.",
         "notes": [
-            "Manzana",
-            "Ciruela",
-            "Ámbar gris"
+            "Caramelo",
+            "Leche",
+            "Azúcar"
         ],
-        "image": "/images/rasasi_hawas.png",
+        "image": "/images/lattafaeclaire.png",
         "inStock": true
     },
     {
@@ -121,25 +121,25 @@
     },
     {
         "id": 9,
-        "name": "Yara moi",
+        "name": "Noble blush",
         "brand": "Lattafa",
-        "price": "$52.000",
-        "shortDescription": "Caramelo sofisticado, cálido y seductor.",
-        "longDescription": "Una fragancia que destila lujo. Inicia con la jugosidad del durazno y el jazmín, que se funden en un corazón denso de caramelo y ámbar. El pachulí en el fondo le otorga una profundidad elegante, ideal para la mujer que busca presencia.",
+        "price": "$65.000",
+        "shortDescription": "Femenino",
+        "longDescription": "La Nota de Salida es Leche de rosas; las Notas de Corazón son merengue y almendra; las Notas de Fondo son vainilla, almizcle y sándalo.",
         "notes": [
-            "Durazno",
-            "Jazmín",
-            "Caramelo"
+            "Leche de rosas",
+            "Merengue",
+            "Almendra"
         ],
-        "image": "/images/Lattafa_yaramoi.png",
+        "image": "/images/lattafanobleblush.png",
         "inStock": true
     },
     {
         "id": 10,
         "name": "Yara Candy",
         "brand": "Lattafa",
-        "price": "$48.000",
-        "shortDescription": "Dulce efervescencia de fresa vibrante.",
+        "price": "$52.000",
+        "shortDescription": "Femenino",
         "longDescription": "Yara Candy es pura diversión embotellada. Su nota única de caramelo efervescente se mezcla con la frescura de las frutas rojas y la suavidad de la gardenia, reposando sobre una base cremosa de vainilla y sándalo.",
         "notes": [
             "Caramelo efervescente",
@@ -151,17 +151,17 @@
     },
     {
         "id": 11,
-        "name": "Amber Oud Gold Edition",
-        "brand": "Al haramain",
-        "price": "$99.200",
-        "shortDescription": "Lujo dorado, frutal y radiante.",
-        "longDescription": "Una obra maestra de la opulencia. Inicia con una explosión vibrante de melón y piña, que evoluciona hacia un corazón de ámbar profundo. Su base de vainilla y almizcle crea una estela Beast Mode que proyecta éxito y sofisticación absoluta.",
+        "name": "Infini Oud",
+        "brand": "Maison Alhambra",
+        "price": "$47.000",
+        "shortDescription": "Masculino",
+        "longDescription": "Las Notas de Salida son nuez moscada y lavanda; las Notas de Corazón son madera de oud y pachulí; las Notas de Fondo son madera de oud, pachulí y almizcle.",
         "notes": [
-            "Melón",
-            "Piña",
-            "Ámbar"
+            "Nuez moscada",
+            "Lavanda",
+            "Madera de oud"
         ],
-        "image": "/images/Alharamain_amberoudgold.png",
+        "image": "/images/Maisoninfinioud.png",
         "inStock": true
     },
     {
@@ -181,62 +181,17 @@
     },
     {
         "id": 13,
-        "name": "Sceptre malachite",
+        "name": "Yeah! 30ml",
         "brand": "Maison Alhambra",
-        "price": "$58.000",
-        "shortDescription": "Lujo verde, aromático y distinguido.",
-        "longDescription": "Una fragancia majestuosa que abre con la frescura punzante de la mandarina verde y grosellas. Su corazón aromático de lavanda y pimienta rosa se asienta sobre una base rica de vetiver y ámbar, creando un aura de poder y sofisticación.",
+        "price": "$25.000",
+        "shortDescription": "Masculino",
+        "longDescription": "Las Notas de Salida son manzana, jengibre y bergamota; las Notas de Corazón son salvia, bayas de enebro y geranio; las Notas de Fondo son Amberwood, haba tonka, cedro, vetiver y incienso de olíbano (franquincienso).",
         "notes": [
-            "Mandarina verde",
-            "Lavanda",
-            "Vetiver"
+            "Manzana",
+            "Jengibre",
+            "Bergamota"
         ],
-        "image": "/images/Maison_sceptremalachite.png",
-        "inStock": true
-    },
-    {
-        "id": 14,
-        "name": "Mayar Natural Intense",
-        "brand": "Lattafa",
-        "price": "$60.000",
-        "shortDescription": "Frescura acuática, exótica y pura.",
-        "longDescription": "Mayar Natural Intense es la definición del lujo vacacional. Sus notas de higo y melón se entrelazan con la delicadeza del lirio de agua, reposando sobre una base de vainilla y sándalo que evoca la calidez de la piel bajo el sol del verano.",
-        "notes": [
-            "Agua de coco",
-            "Flor de loto",
-            "Mandarina"
-        ],
-        "image": "/images/Lattafa_mayarnaturalintense.png",
-        "inStock": true
-    },
-    {
-        "id": 15,
-        "name": "Club de Nuit Urban Elixir",
-        "brand": "Armaf",
-        "price": "$80.000",
-        "shortDescription": "Poder urbano, fresco e intenso.",
-        "longDescription": "Diseñado para el hombre que lo quiere todo. Esta fragancia fusiona la frescura floral del azahar con la robustez del vetiver y el ámbar. Un perfume magnético y versátil que se adapta a cualquier situación con una duración fuera de serie.",
-        "notes": [
-            "Ambroxán",
-            "Bergamota",
-            "Lavanda"
-        ],
-        "image": "/images/Armaf_urbanmanelixir.png",
-        "inStock": true
-    },
-    {
-        "id": 16,
-        "name": "Infini Oud",
-        "brand": "Maison Alhambra",
-        "price": "$47.000",
-        "shortDescription": "Sofisticación amaderada pura y profunda.",
-        "longDescription": "Una mezcla equilibrada de maderas nobles y especias cálidas. La lavanda aporta un toque de limpieza que contrasta con la intensidad del Oud y el pachulí, resultando en una fragancia rica, equilibrada y sumamente profesional para ocasiones especiales.",
-        "notes": [
-            "Madera de oud",
-            "Nuez moscada",
-            "Pachuli"
-        ],
-        "image": "/images/Maison_infinioud.png",
+        "image": "/images/yeah30ml.png",
         "inStock": true
     }
 ]
